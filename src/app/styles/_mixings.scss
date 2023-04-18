@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "font.scss";
+@mixin buttons($sizePadding, $backgroundColor, $fontEpilogue) {
+  padding: $sizePadding;
+  background-color: $transparent;
+  border: 2px solid $MediumGray;
+  border-radius: 10px;
+  color: $MediumGray;
+  font-family: $fontEpilogue;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
