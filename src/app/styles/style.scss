@@ -16,10 +16,14 @@
       gap: 5px;
       list-style: none;
       cursor: pointer;
+      li {
+        display: flex;
+      }
       img {
         display: flex;
         width: 10px;
         height: 10px;
+        margin-top: 10px;
       }
       align-items: center;
       &:hover {
@@ -27,7 +31,7 @@
       }
     }
     a {
-      text-decoration: none;
+      list-style: none;
       color: $MediumGray;
       font-size: $font-size-links;
       font-weight: $font-weight-a;
