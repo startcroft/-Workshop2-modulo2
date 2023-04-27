@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["_font.scss","_universal.scss","style.scss","_variables.scss","_mixings.scss"],"names":[],"mappings":"AAAQ;AAAA;AAAA;ACAR;EACI;EACA;EACA;;;ACCF;EACE;EACA;EACA;;AAEF;EACE;EACA;;AACA;EACE;EACA;EACA;EACA;EAaA;;AAZA;EACE;;AACA;EACE,OChBI;;ADmBR;EACE;EACA;EACA;EACA;;AAGF;EACE,OC3BM;;AD8BV;EACE;EACA,OCjCO;EDkCP,WC/BY;EDgCZ,aC9BU;;AD+BV;EACE,OCpCM;EDqCN,aClCY;;ADsClB;EE1CA,SF2CmB;EE1CnB,kBDHY;ECIZ;EACA;EACA,ODJW;ECKX,aDHa;ECIb;EACA;EACA;;AFoCE;EACC,OC5CS;;AD+CZ;EACE","file":"styles.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAGA;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAEJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA","file":"styles.css"}
+>>>>>>> features/santiago
