@@ -9,7 +9,6 @@
   }
   &_links {
     display: flex;
-    gap: 5px;
     align-items: center;
     ul {
       display: flex;
@@ -18,6 +17,9 @@
       cursor: pointer;
       li {
         display: flex;
+        h4 {
+          color: $AlmostBlack;
+        }
       }
       img {
         display: flex;
