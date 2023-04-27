@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.header_links {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header_links ul {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  cursor: pointer;
+  align-items: center;
+}
+.header_links ul li {
+  display: flex;
+}
+.header_links ul img {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  margin-top: 10px;
+}
+.header_links ul:hover {
+  color: hsl(0, 0%, 8%);
+}
+.header_links a {
+  list-style: none;
+  color: hsl(0, 0%, 41%);
+  font-size: 14px;
+  font-weight: 600;
+}
+.header_links a:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+}
+.header_button {
+  padding: 7px;
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 41%);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header_button:hover {
+  color: hsl(0, 0%, 8%);
+}
+.header_menu {
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

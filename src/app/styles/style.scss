@@ -1,0 +1,68 @@
+@import "universal.scss";
+@import "variables.scss";
+@import "mixings.scss";
+.header {
+  &_navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  &_links {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    ul {
+      display: flex;
+      gap: 5px;
+      list-style: none;
+      cursor: pointer;
+      li {
+        display: flex;
+      }
+      img {
+        display: flex;
+        width: 10px;
+        height: 10px;
+        margin-top: 10px;
+      }
+      align-items: center;
+      &:hover {
+        color: $AlmostBlack;
+      }
+    }
+    a {
+      list-style: none;
+      color: $MediumGray;
+      font-size: $font-size-links;
+      font-weight: $font-weight-a;
+      &:hover {
+        color: $AlmostBlack;
+        font-weight: $font-weight-hover;
+      }
+    }
+  }
+  &_button {
+    @include buttons(7px, $transparent, $fontEpilogue);
+    &:hover {
+     color: $AlmostBlack;
+    }
+  }
+  &_menu {
+    display: none;
+  }
+  }
+// @media screen and (max-width: 720px) {
+//   .header {
+//     &_menu {
+//       display: block;
+//     }
+//     &_navbar {
+//       a {
+//         display: none;
+//       }
+//     }
+//     &_button {
+//       display: none;
+//     }
+//   }
+// }
