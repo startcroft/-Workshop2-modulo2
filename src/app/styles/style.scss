@@ -9,15 +9,22 @@
   }
   &_links {
     display: flex;
-    gap: 5px;
     align-items: center;
     ul {
+      margin-left: 70px;
+      margin-top: -5px;
       display: flex;
-      gap: 5px;
+      gap: 30px;
       list-style: none;
       cursor: pointer;
       li {
         display: flex;
+        h4 {
+          color: $MediumGray;
+          &:hover {
+            color: $AlmostBlack;
+          }
+        }
       }
       img {
         display: flex;
@@ -25,16 +32,13 @@
         height: 10px;
         margin-top: 10px;
       }
-      align-items: center;
-      &:hover {
-        color: $AlmostBlack;
-      }
     }
-    a {
-      list-style: none;
+    h4 {
+      font-family: $fontEpilogue;
       color: $MediumGray;
       font-size: $font-size-links;
       font-weight: $font-weight-a;
+      cursor: pointer;
       &:hover {
         color: $AlmostBlack;
         font-weight: $font-weight-hover;
@@ -44,13 +48,13 @@
   &_button {
     @include buttons(7px, $transparent, $fontEpilogue);
     &:hover {
-     color: $AlmostBlack;
+      color: $AlmostBlack;
     }
   }
   &_menu {
     display: none;
   }
-  }
+}
 // @media screen and (max-width: 720px) {
 //   .header {
 //     &_menu {
