@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>land-page span</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-    </style>
-    <link rel="stylesheet" href="./app/styles/styles.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>land-page span</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  </style>
+  <link rel="stylesheet" href="./app/styles/styles.css" />
   </head->
-  <body>
-    <header class="header">
-     <nav class="header_navbar">
+
+<body>
+  <header class="header">
+    <nav class="header_navbar">
       <div class="header_links">
         <figure class="header_logo">
           <img src="../images/logo.svg" alt="logo">
         </figure>
-        <button class="header_menu">Abrir</button>
-        <ul>
-          <li><h4>Features</h4><img class="header_flechas" src="../images/icon-arrow-down.svg" alt=""></li>
-          <li><h4>Company</h4><img src="../images/icon-arrow-down.svg" alt=""></li>
-          <li><h4>Careers</h4></li>
-          <li><h4>About</h4></li>
+        <button class="nav_button"><img class= "navIcon"src="/images/list.svg" alt="hamburguer"></button>
+        <div class="ulContent">
+        <ul class="components">
+
+          <li>
+            <button class="close_button"><img class="closeIcon" src="/images/x-lg.svg" alt="close"></button>
+          </li>
+          <li>
+            <div class="feature_list">
+              <div class="features">
+                <h4>Features</h4><img class="header_flechas" src="../images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="list_feature">
+                <ul>
+                  <li><img src="/images/icon-todo.svg" alt="list"> Todo List</li>
+                  <li><img src="/images/icon-calendar.svg" alt="Calendar"> Calendar</li>
+                  <li><img src="/images/icon-reminders.svg" alt="reminder">Reminders</li>
+                  <li><img src="/images/icon-planning.svg" alt="icon-planning">Planning</li>
+                </ul>
+
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="company_list">
+              <div class="company">
+                <h4>Company</h4><img src="../images/icon-arrow-down.svg" alt="">
+              </div>
+              <div class="list_company">
+                <ul>
+                  <li>History</li>
+                  <li>Our Team</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h4>Careers</h4>
+          </li>
+          <li>
+            <h4>About</h4>
+          </li>
+          <li>
+            <div class="button_links">
+              <h4>Login</h4>
+              <button class="header_button">Register</button>
+
+            </div>
+          </li>
         </ul>
       </div>
-      <div class="header_links">
-        <h4>Login</h4>
-        <button class="header_button">Register</button>
-
       </div>
 
-     </nav>
-    </header>
-    <div class="mainContainer">
-        <main>
-            <h1>Make remote work</h1>
-            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
-                productivity soar</p>
-            <button class="moreButton">Learn more</button>
 
-            <footer >
-                <img src="../images/client-databiz.svg" alt="client-databiz">
-                <img src="../images/client-audiophile.svg" alt="client-audiophile">
-                <img src="../images/client-meet.svg" alt="client-meet">
-                <img src="../images/client-maker.svg" alt="client-maker">
-            </footer>
-        </main>
+    </nav>
+  </header>
+  <div class="mainContainer">
+    <main>
+      <h1 class="main__titleMake">Make </br> remote work</h1>
+      <p>Get your team in sync, no matter your location. </br> Streamline processes, create team rituals, and </br>
+        watch
+        productivity soar</p>
+      <button class="main__Button">Learn more</button>
 
-    
+      <footer>
+        <figure>
+          <img src="../images/client-databiz.svg" alt="client-databiz">
+          <img src="../images/client-audiophile.svg" alt="client-audiophile">
+          <img src="../images/client-meet.svg" alt="client-meet">
+          <img src="../images/client-maker.svg" alt="client-maker">
+        </figure>
+      </footer>
+    </main>
+
+
     <section class="imageContainer">
+      <figure>
         <img class="image-hero" src="/images/image-hero-desktop.png" alt="image-hero">
+      </figure>
     </section>
-</div>
+  </div>
+
+  <script src="/js/scritp.js"></script>
 </body>
 
 </html>
