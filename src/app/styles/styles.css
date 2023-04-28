@@ -14,18 +14,24 @@
 }
 .header_links {
   display: flex;
-  gap: 5px;
   align-items: center;
 }
 .header_links ul {
+  margin-left: 70px;
+  margin-top: -5px;
   display: flex;
-  gap: 5px;
+  gap: 30px;
   list-style: none;
   cursor: pointer;
-  align-items: center;
 }
 .header_links ul li {
   display: flex;
+}
+.header_links ul li h4 {
+  color: hsl(0, 0%, 41%);
+}
+.header_links ul li h4:hover {
+  color: hsl(0, 0%, 8%);
 }
 .header_links ul img {
   display: flex;
@@ -33,16 +39,14 @@
   height: 10px;
   margin-top: 10px;
 }
-.header_links ul:hover {
-  color: hsl(0, 0%, 8%);
-}
-.header_links a {
-  list-style: none;
+.header_links h4 {
+  font-family: "Roboto";
   color: hsl(0, 0%, 41%);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
-.header_links a:hover {
+.header_links h4:hover {
   color: hsl(0, 0%, 8%);
   font-weight: 700;
 }
