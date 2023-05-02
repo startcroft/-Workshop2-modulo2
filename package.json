@@ -1,5 +1,5 @@
 {
-  "homepage":"https://startcroft.github.io/-Workshop2-modulo2",
+  "homepage": "https://startcroft.github.io/-Workshop2-modulo2",
   "name": "proyectobabel",
   "version": "1.0.0",
   "description": "",
@@ -30,7 +30,7 @@
     "webpack-dev-server": "^4.13.2"
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0"
   }
 }
-
